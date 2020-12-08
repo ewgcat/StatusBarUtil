@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StatusBarUtil</string>
+    <string name="status_blue">status_blue</string>
+    <string name="status_red">status_red</string>
+    <string name="status_while">status_while</string>
+</resources>

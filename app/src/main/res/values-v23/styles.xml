@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--沉浸式状态栏-->
+    <style name="ImageTranslucentTheme" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 设置statusBarColor 为透明-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
