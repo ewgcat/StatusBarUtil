@@ -40,11 +40,9 @@ class StatusBarChangeActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.btn_status_blue -> com.lishuaihua.android_status_util.Eyes.setStatusBarLightMode(this, Color.BLUE)
-            R.id.btn_status_red -> com.lishuaihua.android_status_util.Eyes.setStatusBarLightMode(this, Color.RED)
-            R.id.btn_status_while -> com.lishuaihua.android_status_util.Eyes.setStatusBarLightMode(this, Color.WHITE)
-            else -> {
-            }
+            R.id.btn_status_blue -> Eyes.setStatusBarLightMode(this, Color.BLUE)
+            R.id.btn_status_red -> Eyes.setStatusBarLightMode(this, Color.RED)
+            R.id.btn_status_while -> Eyes.setStatusBarLightMode(this, Color.WHITE)
         }
     }
 }
